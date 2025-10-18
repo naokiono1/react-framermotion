@@ -24,4 +24,25 @@ section {
     height: 100vh;
    scroll-snap-align: center;
   }
-  
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+
+    .box{
+        width: 300px;
+        height: 200px;
+        background-color: hsl(261, 42%, 15%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
